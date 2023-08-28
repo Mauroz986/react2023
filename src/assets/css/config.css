@@ -1,0 +1,20 @@
+:root {
+    /* Fuentes */
+    --fuente-body: 'Roboto', sans-serif;
+    --fuente-titulos: 'Poiret One', sans-serif;
+    
+    /* Colores */
+    --color-primario: rgb(161, 250, 153);
+    --color-secundario: rgb(59, 179, 48);
+    --color-texto-principal: rgb(255, 255, 255);
+    --texto-boton-primario: rgb(0, 0, 0);
+    --color-fondo-body: rgb(34, 34, 34);
+    --color-fondo-componentes: rgb(255, 255, 255);
+    --color-fondo-alerta: rgb(194, 232, 206);
+
+    /* Dimensiones */
+    --navbar-height: 100px;
+    --navbar-brand-width: 80px;
+    --h1: 2.4rem;
+    --tamaño-fuente-body: 18px;
+}

@@ -1,0 +1,50 @@
+@import url(./config.css);
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+  font-size: var(--tamaño-fuente-body);
+  background-color: var(--color-fondo-body);
+  color: var(--color-texto-principal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--fuente-titulos);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3.4rem !important;
+}
+
+h2 {
+  font-size: 2.6rem !important;
+}
+
+h3 {
+  font-size: 1.8rem !important;
+}
+
+h4 {
+  font-size: 1.6rem !important;
+  
+}
+
+.alert-primary {
+  background-color: var(--color-fondo-alerta) !important;
+  color: var(--texto-boton-primario) !important;
+}
+
+.UltOfe{ 
+  font-weight: bold;
+  font-size: 2.6rem !important;
+    font-weight: bold;
+    font-family: var(--fuente-titulos);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}

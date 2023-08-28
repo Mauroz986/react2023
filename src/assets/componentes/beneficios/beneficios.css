@@ -1,0 +1,9 @@
+@import url(../../css/config.css);
+
+.titulo {
+    font-weight: 400;
+}
+
+.color-primario {
+    color: var(--color-primario);
+}

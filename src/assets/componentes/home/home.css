@@ -1,0 +1,27 @@
+@import url("../../css/config.css");
+
+.home {
+    color: black;
+    margin-top: 8px;
+    height: calc(100vh - var(--navbar-height) - 8px);
+    background-image: url("../../imagenes/home-autumn.jpg");
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.home>.contenido {
+    padding: 6% ;
+    background-color: rgba(0, 0, 0, 0.35);
+    height: calc(100vh - var(--navbar-height) - 8px);
+}
+
+.home>.contenido>.titulo {
+    font-family: var(--fuente-titulos);
+    font-weight: 600;
+    color: var(--color-texto-principal);
+}
+
+.home>.contenido> p {
+    font-family: var(--fuente-body);
+    color: var(--color-texto-principal);
+}

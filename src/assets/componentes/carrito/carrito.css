@@ -1,0 +1,10 @@
+@import url(../../css/config.css);
+
+.carrito--thumbnail {
+    width: 5rem;
+    height: 5rem;
+}
+
+.badge {
+    width: fit-content;
+}

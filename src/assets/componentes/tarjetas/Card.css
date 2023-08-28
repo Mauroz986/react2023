@@ -1,0 +1,60 @@
+@import "../../css/config.css";
+
+
+
+
+.color-primario{
+    color: var(--color-primario);
+}
+.card-body {
+  font-family: var(--fuente-body);
+}
+
+  .precio {
+    color: #fff;
+    font-size: 24px; 
+    font-weight: bold; 
+   
+  }
+  .precio-original {
+    font-size: 20px;
+    background-color: rgb(161, 250, 153);;
+    font-family: 'Poiret One';
+    text-decoration: line-through; 
+    color: #888;  
+  }
+  
+ 
+  .precio-descuento {
+    background-color: rgb(63, 63, 63);
+    margin-right: 10px;
+    font-family: 'Poiret One';
+    color: rgb(161, 250, 153);
+    font-size: 24px; 
+    font-weight: bold; 
+  }
+  
+
+  .card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273)!important;
+    transition: all 0.4s linear;
+  }
+
+  .icono-carrito {
+    margin-left: 10px; /* Ajusta el valor según lo necesites */
+    @keyframes scaleEffect {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    
+    .btn-scale-effect {
+      animation: scaleEffect 0.3s ease-in-out;
+    }
+  }

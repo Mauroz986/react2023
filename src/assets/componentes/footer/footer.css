@@ -1,0 +1,12 @@
+@import url(../../css/config.css);
+
+
+.footer--logo {
+    width: 45%;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer--logo--section {
+        text-align: left !important;
+    }
+}

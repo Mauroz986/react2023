@@ -1,0 +1,6 @@
+@import "../../css/config.css";
+
+.check-informacion .bi {
+    font-size: 2rem;
+    color: var(--color-primario);
+}

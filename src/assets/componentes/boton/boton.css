@@ -1,0 +1,38 @@
+@import url(../../css/config.css);
+
+.btn {
+    font-family: var(--fuente-body);
+    background-color: var(--color-primario);
+    color: var(--texto-boton-primario);
+    font-weight: 400;
+    font-size: 1rem;
+    border: none;
+}
+
+.btn:hover {
+    background-color: var(--color-secundario) !important;
+}
+
+.btn:focus {
+    background-color: var(--color-secundario) !important;
+}
+
+.boton-redondo {
+    border-radius: 50%;
+}
+
+.bg-secondary {
+    background-color: var(--color-secundario) !important;
+}
+
+.badge {
+    font-size: .7rem;   
+}
+
+.top-10 {
+    top: 10% !important;
+}
+
+.start-85 {
+    left: 85% !important;
+}

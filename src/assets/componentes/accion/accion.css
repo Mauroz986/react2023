@@ -1,0 +1,43 @@
+@import url(../../css/config.css);
+
+.link-icono {
+    color: var(--color-primario);
+    font-size: 1.5rem;
+}
+.btn {
+    font-family: var(--fuente-body);
+    background-color: var(--color-primario);
+    color: var(--texto-boton-primario);
+    font-weight: 400;
+    font-size: 1rem;
+    border: none;
+}
+
+.btn:hover {
+    background-color: var(--color-secundario) !important;
+}
+
+.boton-redondo {
+    border-radius: 50%;
+}
+
+.solo-icono {
+    color: var(--color-secundario);
+    border: none;
+    background-color: transparent;
+}
+.top-10 {
+    top: 10% !important;
+}
+
+.start-85 {
+    left: 85% !important;
+}
+
+.badge {
+    font-size: .7rem;
+}
+
+.bg-secondary {
+    background-color: var(--color-secundario) !important;
+}
